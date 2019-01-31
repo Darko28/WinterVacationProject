@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A214C82722032E92003F3348 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214C82622032E92003F3348 /* AppDelegate.swift */; };
+		A214C82922032E92003F3348 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214C82822032E92003F3348 /* ViewController.swift */; };
+		A214C82C22032E92003F3348 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A214C82A22032E92003F3348 /* Main.storyboard */; };
+		A214C82F22032E92003F3348 /* WinterVacationProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A214C82D22032E92003F3348 /* WinterVacationProject.xcdatamodeld */; };
+		A214C83122032E95003F3348 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A214C83022032E95003F3348 /* Assets.xcassets */; };
+		A214C83422032E95003F3348 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A214C83222032E95003F3348 /* LaunchScreen.storyboard */; };
+		A214C83F22032E95003F3348 /* WinterVacationProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214C83E22032E95003F3348 /* WinterVacationProjectTests.swift */; };
+		A214C84A22032E95003F3348 /* WinterVacationProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214C84922032E95003F3348 /* WinterVacationProjectUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A214C83B22032E95003F3348 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A214C81B22032E92003F3348 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A214C82222032E92003F3348;
+			remoteInfo = WinterVacationProject;
+		};
+		A214C84622032E95003F3348 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A214C81B22032E92003F3348 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A214C82222032E92003F3348;
+			remoteInfo = WinterVacationProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A214C82322032E92003F3348 /* WinterVacationProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WinterVacationProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A214C82622032E92003F3348 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A214C82822032E92003F3348 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A214C82B22032E92003F3348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A214C82E22032E92003F3348 /* WinterVacationProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = WinterVacationProject.xcdatamodel; sourceTree = "<group>"; };
+		A214C83022032E95003F3348 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A214C83322032E95003F3348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A214C83522032E95003F3348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A214C83A22032E95003F3348 /* WinterVacationProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WinterVacationProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A214C83E22032E95003F3348 /* WinterVacationProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinterVacationProjectTests.swift; sourceTree = "<group>"; };
+		A214C84022032E95003F3348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A214C84522032E95003F3348 /* WinterVacationProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WinterVacationProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A214C84922032E95003F3348 /* WinterVacationProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinterVacationProjectUITests.swift; sourceTree = "<group>"; };
+		A214C84B22032E95003F3348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A214C82022032E92003F3348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A214C83722032E95003F3348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A214C84222032E95003F3348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A214C81A22032E92003F3348 = {
+			isa = PBXGroup;
+			children = (
+				A214C82522032E92003F3348 /* WinterVacationProject */,
+				A214C83D22032E95003F3348 /* WinterVacationProjectTests */,
+				A214C84822032E95003F3348 /* WinterVacationProjectUITests */,
+				A214C82422032E92003F3348 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A214C82422032E92003F3348 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A214C82322032E92003F3348 /* WinterVacationProject.app */,
+				A214C83A22032E95003F3348 /* WinterVacationProjectTests.xctest */,
+				A214C84522032E95003F3348 /* WinterVacationProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A214C82522032E92003F3348 /* WinterVacationProject */ = {
+			isa = PBXGroup;
+			children = (
+				A214C82622032E92003F3348 /* AppDelegate.swift */,
+				A214C82822032E92003F3348 /* ViewController.swift */,
+				A214C82A22032E92003F3348 /* Main.storyboard */,
+				A214C83022032E95003F3348 /* Assets.xcassets */,
+				A214C83222032E95003F3348 /* LaunchScreen.storyboard */,
+				A214C83522032E95003F3348 /* Info.plist */,
+				A214C82D22032E92003F3348 /* WinterVacationProject.xcdatamodeld */,
+			);
+			path = WinterVacationProject;
+			sourceTree = "<group>";
+		};
+		A214C83D22032E95003F3348 /* WinterVacationProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				A214C83E22032E95003F3348 /* WinterVacationProjectTests.swift */,
+				A214C84022032E95003F3348 /* Info.plist */,
+			);
+			path = WinterVacationProjectTests;
+			sourceTree = "<group>";
+		};
+		A214C84822032E95003F3348 /* WinterVacationProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A214C84922032E95003F3348 /* WinterVacationProjectUITests.swift */,
+				A214C84B22032E95003F3348 /* Info.plist */,
+			);
+			path = WinterVacationProjectUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A214C82222032E92003F3348 /* WinterVacationProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A214C84E22032E95003F3348 /* Build configuration list for PBXNativeTarget "WinterVacationProject" */;
+			buildPhases = (
+				A214C81F22032E92003F3348 /* Sources */,
+				A214C82022032E92003F3348 /* Frameworks */,
+				A214C82122032E92003F3348 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WinterVacationProject;
+			productName = WinterVacationProject;
+			productReference = A214C82322032E92003F3348 /* WinterVacationProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A214C83922032E95003F3348 /* WinterVacationProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A214C85122032E95003F3348 /* Build configuration list for PBXNativeTarget "WinterVacationProjectTests" */;
+			buildPhases = (
+				A214C83622032E95003F3348 /* Sources */,
+				A214C83722032E95003F3348 /* Frameworks */,
+				A214C83822032E95003F3348 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A214C83C22032E95003F3348 /* PBXTargetDependency */,
+			);
+			name = WinterVacationProjectTests;
+			productName = WinterVacationProjectTests;
+			productReference = A214C83A22032E95003F3348 /* WinterVacationProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A214C84422032E95003F3348 /* WinterVacationProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A214C85422032E95003F3348 /* Build configuration list for PBXNativeTarget "WinterVacationProjectUITests" */;
+			buildPhases = (
+				A214C84122032E95003F3348 /* Sources */,
+				A214C84222032E95003F3348 /* Frameworks */,
+				A214C84322032E95003F3348 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A214C84722032E95003F3348 /* PBXTargetDependency */,
+			);
+			name = WinterVacationProjectUITests;
+			productName = WinterVacationProjectUITests;
+			productReference = A214C84522032E95003F3348 /* WinterVacationProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A214C81B22032E92003F3348 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Darko;
+				TargetAttributes = {
+					A214C82222032E92003F3348 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					A214C83922032E95003F3348 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A214C82222032E92003F3348;
+					};
+					A214C84422032E95003F3348 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A214C82222032E92003F3348;
+					};
+				};
+			};
+			buildConfigurationList = A214C81E22032E92003F3348 /* Build configuration list for PBXProject "WinterVacationProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A214C81A22032E92003F3348;
+			productRefGroup = A214C82422032E92003F3348 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A214C82222032E92003F3348 /* WinterVacationProject */,
+				A214C83922032E95003F3348 /* WinterVacationProjectTests */,
+				A214C84422032E95003F3348 /* WinterVacationProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A214C82122032E92003F3348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A214C83422032E95003F3348 /* LaunchScreen.storyboard in Resources */,
+				A214C83122032E95003F3348 /* Assets.xcassets in Resources */,
+				A214C82C22032E92003F3348 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A214C83822032E95003F3348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A214C84322032E95003F3348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A214C81F22032E92003F3348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A214C82F22032E92003F3348 /* WinterVacationProject.xcdatamodeld in Sources */,
+				A214C82922032E92003F3348 /* ViewController.swift in Sources */,
+				A214C82722032E92003F3348 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A214C83622032E95003F3348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A214C83F22032E95003F3348 /* WinterVacationProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A214C84122032E95003F3348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A214C84A22032E95003F3348 /* WinterVacationProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A214C83C22032E95003F3348 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A214C82222032E92003F3348 /* WinterVacationProject */;
+			targetProxy = A214C83B22032E95003F3348 /* PBXContainerItemProxy */;
+		};
+		A214C84722032E95003F3348 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A214C82222032E92003F3348 /* WinterVacationProject */;
+			targetProxy = A214C84622032E95003F3348 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A214C82A22032E92003F3348 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A214C82B22032E92003F3348 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A214C83222032E95003F3348 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A214C83322032E95003F3348 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A214C84C22032E95003F3348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A214C84D22032E95003F3348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A214C84F22032E95003F3348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HCYK33GWAM;
+				INFOPLIST_FILE = WinterVacationProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Darko.WinterVacationProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A214C85022032E95003F3348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HCYK33GWAM;
+				INFOPLIST_FILE = WinterVacationProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Darko.WinterVacationProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A214C85222032E95003F3348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HCYK33GWAM;
+				INFOPLIST_FILE = WinterVacationProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Darko.WinterVacationProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WinterVacationProject.app/WinterVacationProject";
+			};
+			name = Debug;
+		};
+		A214C85322032E95003F3348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HCYK33GWAM;
+				INFOPLIST_FILE = WinterVacationProjectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Darko.WinterVacationProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WinterVacationProject.app/WinterVacationProject";
+			};
+			name = Release;
+		};
+		A214C85522032E95003F3348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HCYK33GWAM;
+				INFOPLIST_FILE = WinterVacationProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Darko.WinterVacationProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WinterVacationProject;
+			};
+			name = Debug;
+		};
+		A214C85622032E95003F3348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HCYK33GWAM;
+				INFOPLIST_FILE = WinterVacationProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Darko.WinterVacationProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WinterVacationProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A214C81E22032E92003F3348 /* Build configuration list for PBXProject "WinterVacationProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A214C84C22032E95003F3348 /* Debug */,
+				A214C84D22032E95003F3348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A214C84E22032E95003F3348 /* Build configuration list for PBXNativeTarget "WinterVacationProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A214C84F22032E95003F3348 /* Debug */,
+				A214C85022032E95003F3348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A214C85122032E95003F3348 /* Build configuration list for PBXNativeTarget "WinterVacationProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A214C85222032E95003F3348 /* Debug */,
+				A214C85322032E95003F3348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A214C85422032E95003F3348 /* Build configuration list for PBXNativeTarget "WinterVacationProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A214C85522032E95003F3348 /* Debug */,
+				A214C85622032E95003F3348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A214C82D22032E92003F3348 /* WinterVacationProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A214C82E22032E92003F3348 /* WinterVacationProject.xcdatamodel */,
+			);
+			currentVersion = A214C82E22032E92003F3348 /* WinterVacationProject.xcdatamodel */;
+			path = WinterVacationProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A214C81B22032E92003F3348 /* Project object */;
+}
