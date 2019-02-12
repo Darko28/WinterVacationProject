@@ -15,6 +15,20 @@
 		A214C83422032E95003F3348 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A214C83222032E95003F3348 /* LaunchScreen.storyboard */; };
 		A214C83F22032E95003F3348 /* WinterVacationProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214C83E22032E95003F3348 /* WinterVacationProjectTests.swift */; };
 		A214C84A22032E95003F3348 /* WinterVacationProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214C84922032E95003F3348 /* WinterVacationProjectUITests.swift */; };
+		A214C85B22033355003F3348 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214C85A22033355003F3348 /* Utils.swift */; };
+		A214C85D22035E21003F3348 /* BoxUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214C85C22035E21003F3348 /* BoxUtils.swift */; };
+		A214C85F220367E6003F3348 /* Detection.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214C85E220367E6003F3348 /* Detection.swift */; };
+		A214C86122036C02003F3348 /* DetectionRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214C86022036C02003F3348 /* DetectionRenderer.swift */; };
+		A214C86322038678003F3348 /* ProposalLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214C86222038678003F3348 /* ProposalLayer.swift */; };
+		A214C86522038B14003F3348 /* MaskRCNNConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214C86422038B14003F3348 /* MaskRCNNConfig.swift */; };
+		A214C8672204A308003F3348 /* DetectionLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A214C8662204A308003F3348 /* DetectionLayer.swift */; };
+		A250DE032210631F00560184 /* PyramidROIAlignLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A250DE022210631F00560184 /* PyramidROIAlignLayer.swift */; };
+		A250DE052210897D00560184 /* TimeDistributedClassifierLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A250DE042210897D00560184 /* TimeDistributedClassifierLayer.swift */; };
+		A250DE07221097CC00560184 /* TimeDistributedMaskLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A250DE06221097CC00560184 /* TimeDistributedMaskLayer.swift */; };
+		A250DE0D22109E4200560184 /* MaskRCNN.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A250DE0922109E4200560184 /* MaskRCNN.mlmodel */; };
+		A250DE0E22109E4200560184 /* Mask.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A250DE0A22109E4200560184 /* Mask.mlmodel */; };
+		A250DE0F22109E4200560184 /* Classifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A250DE0B22109E4200560184 /* Classifier.mlmodel */; };
+		A250DE1022109E4200560184 /* anchors.bin in Resources */ = {isa = PBXBuildFile; fileRef = A250DE0C22109E4200560184 /* anchors.bin */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +63,20 @@
 		A214C84522032E95003F3348 /* WinterVacationProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WinterVacationProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A214C84922032E95003F3348 /* WinterVacationProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WinterVacationProjectUITests.swift; sourceTree = "<group>"; };
 		A214C84B22032E95003F3348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A214C85A22033355003F3348 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		A214C85C22035E21003F3348 /* BoxUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoxUtils.swift; sourceTree = "<group>"; };
+		A214C85E220367E6003F3348 /* Detection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detection.swift; sourceTree = "<group>"; };
+		A214C86022036C02003F3348 /* DetectionRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectionRenderer.swift; sourceTree = "<group>"; };
+		A214C86222038678003F3348 /* ProposalLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProposalLayer.swift; sourceTree = "<group>"; };
+		A214C86422038B14003F3348 /* MaskRCNNConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskRCNNConfig.swift; sourceTree = "<group>"; };
+		A214C8662204A308003F3348 /* DetectionLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectionLayer.swift; sourceTree = "<group>"; };
+		A250DE022210631F00560184 /* PyramidROIAlignLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PyramidROIAlignLayer.swift; sourceTree = "<group>"; };
+		A250DE042210897D00560184 /* TimeDistributedClassifierLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeDistributedClassifierLayer.swift; sourceTree = "<group>"; };
+		A250DE06221097CC00560184 /* TimeDistributedMaskLayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeDistributedMaskLayer.swift; sourceTree = "<group>"; };
+		A250DE0922109E4200560184 /* MaskRCNN.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = MaskRCNN.mlmodel; sourceTree = "<group>"; };
+		A250DE0A22109E4200560184 /* Mask.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Mask.mlmodel; sourceTree = "<group>"; };
+		A250DE0B22109E4200560184 /* Classifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Classifier.mlmodel; sourceTree = "<group>"; };
+		A250DE0C22109E4200560184 /* anchors.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = anchors.bin; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,8 +127,12 @@
 		A214C82522032E92003F3348 /* WinterVacationProject */ = {
 			isa = PBXGroup;
 			children = (
+				A214C85922033328003F3348 /* Utilities */,
+				A214C85822032EF6003F3348 /* CoreMLModels */,
+				A214C85722032EE2003F3348 /* MaskRCNN */,
 				A214C82622032E92003F3348 /* AppDelegate.swift */,
 				A214C82822032E92003F3348 /* ViewController.swift */,
+				A214C86022036C02003F3348 /* DetectionRenderer.swift */,
 				A214C82A22032E92003F3348 /* Main.storyboard */,
 				A214C83022032E95003F3348 /* Assets.xcassets */,
 				A214C83222032E95003F3348 /* LaunchScreen.storyboard */,
@@ -126,6 +158,40 @@
 				A214C84B22032E95003F3348 /* Info.plist */,
 			);
 			path = WinterVacationProjectUITests;
+			sourceTree = "<group>";
+		};
+		A214C85722032EE2003F3348 /* MaskRCNN */ = {
+			isa = PBXGroup;
+			children = (
+				A214C85E220367E6003F3348 /* Detection.swift */,
+				A214C86222038678003F3348 /* ProposalLayer.swift */,
+				A214C86422038B14003F3348 /* MaskRCNNConfig.swift */,
+				A214C8662204A308003F3348 /* DetectionLayer.swift */,
+				A250DE022210631F00560184 /* PyramidROIAlignLayer.swift */,
+				A250DE042210897D00560184 /* TimeDistributedClassifierLayer.swift */,
+				A250DE06221097CC00560184 /* TimeDistributedMaskLayer.swift */,
+			);
+			path = MaskRCNN;
+			sourceTree = "<group>";
+		};
+		A214C85822032EF6003F3348 /* CoreMLModels */ = {
+			isa = PBXGroup;
+			children = (
+				A250DE0C22109E4200560184 /* anchors.bin */,
+				A250DE0B22109E4200560184 /* Classifier.mlmodel */,
+				A250DE0A22109E4200560184 /* Mask.mlmodel */,
+				A250DE0922109E4200560184 /* MaskRCNN.mlmodel */,
+			);
+			path = CoreMLModels;
+			sourceTree = "<group>";
+		};
+		A214C85922033328003F3348 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				A214C85A22033355003F3348 /* Utils.swift */,
+				A214C85C22035E21003F3348 /* BoxUtils.swift */,
+			);
+			path = Utilities;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,6 +298,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A250DE1022109E4200560184 /* anchors.bin in Resources */,
 				A214C83422032E95003F3348 /* LaunchScreen.storyboard in Resources */,
 				A214C83122032E95003F3348 /* Assets.xcassets in Resources */,
 				A214C82C22032E92003F3348 /* Main.storyboard in Resources */,
@@ -259,9 +326,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A250DE0E22109E4200560184 /* Mask.mlmodel in Sources */,
 				A214C82F22032E92003F3348 /* WinterVacationProject.xcdatamodeld in Sources */,
+				A250DE0D22109E4200560184 /* MaskRCNN.mlmodel in Sources */,
+				A214C85F220367E6003F3348 /* Detection.swift in Sources */,
 				A214C82922032E92003F3348 /* ViewController.swift in Sources */,
+				A250DE052210897D00560184 /* TimeDistributedClassifierLayer.swift in Sources */,
+				A214C86322038678003F3348 /* ProposalLayer.swift in Sources */,
+				A214C86122036C02003F3348 /* DetectionRenderer.swift in Sources */,
+				A214C8672204A308003F3348 /* DetectionLayer.swift in Sources */,
+				A250DE032210631F00560184 /* PyramidROIAlignLayer.swift in Sources */,
+				A250DE07221097CC00560184 /* TimeDistributedMaskLayer.swift in Sources */,
 				A214C82722032E92003F3348 /* AppDelegate.swift in Sources */,
+				A214C85B22033355003F3348 /* Utils.swift in Sources */,
+				A214C86522038B14003F3348 /* MaskRCNNConfig.swift in Sources */,
+				A214C85D22035E21003F3348 /* BoxUtils.swift in Sources */,
+				A250DE0F22109E4200560184 /* Classifier.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

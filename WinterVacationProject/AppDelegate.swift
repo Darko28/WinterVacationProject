@@ -17,6 +17,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+//        MaskRCNNConfig.defaultConfig.anchorsURL = Bundle.main.url(forResource: "anchors", withExtension: "bin", subdirectory: "CoreMLModels")
+//        MaskRCNNConfig.defaultConfig.compiledClassifierModelURL = Bundle.main.url(forResource: "Classifier", withExtension: "mlmodelc", subdirectory: "CoreMLModels")
+//        MaskRCNNConfig.defaultConfig.compiledMaskModelURL = Bundle.main.url(forResource: "Mask", withExtension: "mlmodelc", subdirectory: "CoreMLModels")
+        MaskRCNNConfig.defaultConfig.anchorsURL = Bundle.main.url(forResource: "anchors", withExtension: "bin")
+        MaskRCNNConfig.defaultConfig.compiledClassifierModelURL = Bundle.main.url(forResource: "Classifier", withExtension: "mlmodelc")
+        MaskRCNNConfig.defaultConfig.compiledMaskModelURL = Bundle.main.url(forResource: "Mask", withExtension: "mlmodelc")
+        
         return true
     }
 
