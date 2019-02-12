@@ -29,6 +29,7 @@
 		A250DE0E22109E4200560184 /* Mask.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A250DE0A22109E4200560184 /* Mask.mlmodel */; };
 		A250DE0F22109E4200560184 /* Classifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A250DE0B22109E4200560184 /* Classifier.mlmodel */; };
 		A250DE1022109E4200560184 /* anchors.bin in Resources */ = {isa = PBXBuildFile; fileRef = A250DE0C22109E4200560184 /* anchors.bin */; };
+		A28FB2CD2212BEFA00D432E4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = A28FB2CC2212BEFA00D432E4 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +78,7 @@
 		A250DE0A22109E4200560184 /* Mask.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Mask.mlmodel; sourceTree = "<group>"; };
 		A250DE0B22109E4200560184 /* Classifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Classifier.mlmodel; sourceTree = "<group>"; };
 		A250DE0C22109E4200560184 /* anchors.bin */ = {isa = PBXFileReference; lastKnownFileType = archive.macbinary; path = anchors.bin; sourceTree = "<group>"; };
+		A28FB2CC2212BEFA00D432E4 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 		A214C81A22032E92003F3348 = {
 			isa = PBXGroup;
 			children = (
+				A28FB2CC2212BEFA00D432E4 /* README.md */,
 				A214C82522032E92003F3348 /* WinterVacationProject */,
 				A214C83D22032E95003F3348 /* WinterVacationProjectTests */,
 				A214C84822032E95003F3348 /* WinterVacationProjectUITests */,
@@ -300,6 +303,7 @@
 			files = (
 				A250DE1022109E4200560184 /* anchors.bin in Resources */,
 				A214C83422032E95003F3348 /* LaunchScreen.storyboard in Resources */,
+				A28FB2CD2212BEFA00D432E4 /* README.md in Resources */,
 				A214C83122032E95003F3348 /* Assets.xcassets in Resources */,
 				A214C82C22032E92003F3348 /* Main.storyboard in Resources */,
 			);
